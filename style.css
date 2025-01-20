@@ -146,3 +146,20 @@ a {
 .read-me-3 {
     color: var(--violet);
 }
+.icon {
+    margin: 4rem 0px;
+    text-align: center;
+}
+.less-than, .greater-than {
+    font-size: 24px;
+    background-color: var(--orange);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 18px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.less-than {
+    margin-right: 0.7rem;
+}
