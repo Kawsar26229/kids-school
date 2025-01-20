@@ -26,12 +26,13 @@ a {
 /* Header Section */
 .container {
     width: 1160px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 .logo {
     display: flex;
@@ -46,6 +47,9 @@ a {
 .nav-links {
     display: flex;
     gap: 2rem;
+}
+.nav-link {
+    color: white;   
 }
 .nav-link {
     font-size: 20px;
@@ -223,4 +227,43 @@ a {
 .view-btn {
     text-align: center;
     padding-bottom: 4rem;
+}
+/* Footer Section */
+.footer {
+    background-color: var(--sky-blue);
+}
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 6rem 0rem;
+}
+.footer-logo {
+    color: white; 
+    width: 5rem;   
+    margin-bottom: 2rem;
+}
+.footer-logo-title {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.footer-title {
+    font-size: 42px;
+    color: white;
+}
+.footer-details {
+    color: white;
+    font-size: 1.2rem;
+    width: 30rem;
+}
+.footer-school {
+    font-size: 1.5rem;
+    color: white;
+}
+.footer-link {
+    font-weight: normal;
+}
+.footer-links li {
+    margin: 10px 0;
 }
