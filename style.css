@@ -77,6 +77,9 @@ a {
     border-radius: 10px;
     cursor: pointer;
 }
+.bars {
+    display: none;
+}
 /* Banner Section */
 .banner {
     display: flex;
@@ -266,4 +269,21 @@ a {
 }
 .footer-links li {
     margin: 10px 0;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 576px) {
+    .logo {
+        margin-left: 1rem;
+    }
+    .nav, .button {
+        display: none;
+    }
+    .bars {
+        display: block;
+        margin-right: 1rem;
+    }
+    .banner {
+        flex-direction: column-reverse;
+    }
 }
