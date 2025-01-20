@@ -163,3 +163,41 @@ a {
 .less-than {
     margin-right: 0.7rem;
 }
+/* Stories Section */
+.stories {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 5rem 0;
+}
+.story-btn {
+    background-color: var(--blue);
+    cursor: initial;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 19.5rem;
+    left: 2rem;
+}
+.story-btn p {
+    padding: 15px 10px 15px 20px;
+    font-size: 15px;
+}
+.story-1 {
+    width: 540px;
+    grid-column: 1;
+    grid-row: 1/3;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+.story-details {
+    padding: 1rem;
+}
+.story-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.5rem 0px;
+}
+.story-description {
+    font-family: "Raleway", serif;
+}
