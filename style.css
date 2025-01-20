@@ -13,6 +13,7 @@
 }
 body {
     font-family: "Quicksand", serif;
+    font-size: 16px;
 }
 ul {
     list-style-type: none;
@@ -70,4 +71,29 @@ a {
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
+}
+/* Banner Section */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.banner-title {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.empower {
+    color: var(--orange);
+    margin-right: 10rem;
+}
+.vision {
+    color: var(--sky-blue);
+}
+.banner-description {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+.enroll-btn {
+    background-color: #000;
 }
