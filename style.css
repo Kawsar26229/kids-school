@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --orange: #FEA301;
     --sky-blue: #01ACFD;
     --blue: #05D4DF;
     --violet: #5D58EF;
+    --font-weight-custom: bold;
 }
 /* Initial Setup */
 * {
@@ -39,7 +40,7 @@ a {
 }
 .logo-title {
     font-size: 32px;
-    font-weight: bold;
+    font-weight: var(--font-weight-custom);
     text-transform: uppercase;
 }
 .nav-links {
@@ -48,7 +49,7 @@ a {
 }
 .nav-link {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: var(--font-weight-custom);
 }
 .nav-link-1 {
     color: var(--orange);
@@ -81,7 +82,7 @@ a {
 }
 .banner-title {
     font-size: 3.2rem;
-    font-weight: bold;
+    font-weight: var(--font-weight-custom);
 }
 .empower {
     color: var(--orange);
@@ -96,4 +97,52 @@ a {
 }
 .enroll-btn {
     background-color: #000;
+}
+/* Curriculum Section */
+.card-container {
+    margin-top: 5rem;
+    display: flex;
+    gap: 2rem;
+}
+.card {
+    width: 368px;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-1 {
+    background: linear-gradient(360deg, rgba(255,255,255,1) 75%, rgba(100, 201, 255, 0.315) 100%);
+    box-shadow: 0 3px 5px rgba(1, 183, 255, 0.1);
+}
+.card-2 {
+    background: linear-gradient(360deg, rgba(255,255,255,1) 75%, rgba(255, 183, 100, 0.315) 100%);
+    box-shadow: 0 3px 5px rgba(255, 175, 1, 0.1);
+}
+.card-3 {
+    background: linear-gradient(360deg, rgba(255,255,255,1) 75%, rgba(219, 100, 255, 0.315) 100%);
+    box-shadow: 0 3px 5px rgba(183, 1, 255, 0.1);
+}
+.curriculum {
+    font-size: 46px;
+    font-weight: var(--font-weight-custom);
+    text-align: center;
+    margin-top: 40px;
+}
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.card-description {
+    font-family: "Raleway", serif;
+    color: #808080;
+    margin: 2rem 0;
+}
+.read-me-1 {
+    color: var(--sky-blue);
+}
+.read-me-2 {
+    color: var(--orange);
+}
+.read-me-3 {
+    color: var(--violet);
 }
